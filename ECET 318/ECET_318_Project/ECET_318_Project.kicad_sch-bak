@@ -1,0 +1,172 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f1e8215e-2100-40b3-b836-5691fd657e21")
+	(paper "A3")
+	(lib_symbols)
+	(sheet
+		(at 51.562 93.726)
+		(size 53.34 57.15)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2770a9c7-8f42-4e20-b259-70afda169fab")
+		(property "Sheetname" "Mic Amp"
+			(at 61.722 91.186 0)
+			(effects
+				(font
+					(size 5.08 5.08)
+					(bold yes)
+					(color 0 78 255 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Mic_Amp.kicad_sch"
+			(at 51.562 151.4606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ECET_318_Project"
+				(path "/f1e8215e-2100-40b3-b836-5691fd657e21"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 132.08 133.35)
+		(size 55.118 41.91)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6d3c059e-42cd-41e5-a681-4b256e7b01d8")
+		(property "Sheetname" "Shelving Filter"
+			(at 132.08 130.7334 0)
+			(effects
+				(font
+					(size 5.08 5.08)
+					(bold yes)
+					(color 0 78 255 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Shelving_Filter.kicad_sch"
+			(at 132.08 175.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ECET_318_Project"
+				(path "/f1e8215e-2100-40b3-b836-5691fd657e21"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 131.572 79.756)
+		(size 55.372 37.846)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a4fdb724-2a55-4a97-8bdc-8bc2d3b594ca")
+		(property "Sheetname" "State Variable"
+			(at 131.572 77.1394 0)
+			(effects
+				(font
+					(size 5.08 5.08)
+					(bold yes)
+					(color 0 78 255 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "State_Variable.kicad_sch"
+			(at 131.572 118.1866 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ECET_318_Project"
+				(path "/f1e8215e-2100-40b3-b836-5691fd657e21"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 210.058 91.694)
+		(size 49.53 62.23)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e6fe9e77-4268-45c1-b52d-9b4a6e4d8389")
+		(property "Sheetname" "Peak Limiter"
+			(at 210.058 89.0774 0)
+			(effects
+				(font
+					(size 5.08 5.08)
+					(bold yes)
+					(color 0 78 255 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Peak_Limiter.kicad_sch"
+			(at 210.058 154.5086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ECET_318_Project"
+				(path "/f1e8215e-2100-40b3-b836-5691fd657e21"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

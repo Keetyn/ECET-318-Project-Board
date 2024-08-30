@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "INA128")(type "KiCad")(uri "C:/Users/KjB22/OneDrive/Desktop/Kicad Projects/ECET 318/Components/INA128/footprints.pretty")(options "")(descr ""))
+  (lib (name "Breadboards")(type "KiCad")(uri "${KIPRJMOD}/Breadboards.pretty")(options "")(descr ""))
+  (lib (name "Custom_parts")(type "KiCad")(uri "${KIPRJMOD}/Custom_parts.pretty")(options "")(descr ""))
+)
