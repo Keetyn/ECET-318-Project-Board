@@ -1342,12 +1342,6 @@
 		)
 	)
 	(junction
-		(at 223.52 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f62bcbf-8c82-4a8b-b022-d32299095dda")
-	)
-	(junction
 		(at 72.39 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1466,6 +1460,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "993d36f8-87de-406f-a628-81a4145e5a2d")
+	)
+	(junction
+		(at 223.52 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a899a936-3af8-4325-914f-8353318cfc8a")
 	)
 	(junction
 		(at 195.58 86.36)
@@ -1787,16 +1787,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 95.25) (xy 228.6 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3eee2aa1-a3f7-425b-bc8e-c1cc1b934e5c")
-	)
-	(wire
-		(pts
 			(xy 52.07 101.6) (xy 57.15 101.6)
 		)
 		(stroke
@@ -1974,6 +1964,16 @@
 			(type default)
 		)
 		(uuid "710e74db-a336-4ec7-b85e-abfe63cf244c")
+	)
+	(wire
+		(pts
+			(xy 223.52 95.25) (xy 228.6 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "784d7164-2993-4346-9336-8d39d08fda26")
 	)
 	(wire
 		(pts
@@ -2455,7 +2455,7 @@
 		)
 		(uuid "fecc65aa-761b-47d0-88df-89685fd4a34b")
 	)
-	(hierarchical_label "Shelving_Filter_out"
+	(hierarchical_label "Shelving_Filter_Out"
 		(shape input)
 		(at 228.6 95.25 0)
 		(fields_autoplaced yes)
