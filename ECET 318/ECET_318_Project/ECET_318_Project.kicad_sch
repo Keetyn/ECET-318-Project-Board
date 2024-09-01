@@ -592,12 +592,12 @@
 				)
 			)
 		)
-		(symbol "Custom_parts:BreadBoard_Space"
+		(symbol "Custom_parts:SPDT_Latching_Pushbutton"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 3.556 0)
+				(at 0 5.334 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -639,10 +639,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "BreadBoard_Space_0_1"
+			(symbol "SPDT_Latching_Pushbutton_0_1"
 				(rectangle
-					(start -3.302 2.54)
-					(end 3.302 -2.032)
+					(start -3.81 2.54)
+					(end 3.81 -7.62)
 					(stroke
 						(width 0)
 						(type default)
@@ -652,7 +652,7 @@
 					)
 				)
 				(circle
-					(center -2.794 -1.27)
+					(center -2.54 -5.08)
 					(radius 0.254)
 					(stroke
 						(width 0)
@@ -663,7 +663,7 @@
 					)
 				)
 				(circle
-					(center -2.794 -0.254)
+					(center -2.54 0)
 					(radius 0.254)
 					(stroke
 						(width 0)
@@ -673,9 +673,58 @@
 						(type none)
 					)
 				)
-				(circle
-					(center -2.794 0.762)
-					(radius 0.254)
+				(polyline
+					(pts
+						(xy -3.81 -5.08) (xy -2.794 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -2.794 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy -2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 2.794 -2.54)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -685,7 +734,7 @@
 					)
 				)
 				(circle
-					(center -2.794 1.778)
+					(center 2.54 -2.54)
 					(radius 0.254)
 					(stroke
 						(width 0)
@@ -695,224 +744,68 @@
 						(type none)
 					)
 				)
-				(circle
-					(center -1.778 -1.27)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.778 -0.254)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+			)
+			(symbol "SPDT_Latching_Pushbutton_1_1"
+				(text "800CSP1B6M2QE"
+					(at 0 3.556 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
-				(circle
-					(center -1.778 0.762)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
+				(pin bidirectional line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.778 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
-				(circle
-					(center -0.762 -1.27)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
+				(pin bidirectional line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -0.762 -0.254)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
-				(circle
-					(center -0.762 0.762)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
+				(pin bidirectional line
+					(at -6.35 -5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -0.762 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0.762 -1.27)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0.762 -0.254)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0.762 0.762)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0.762 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.778 -1.27)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.778 -0.254)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.778 0.762)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.778 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.794 -1.27)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.794 -0.254)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.794 0.762)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.794 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -1367,12 +1260,6 @@
 		)
 	)
 	(junction
-		(at 218.44 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c2d9f04-3ef6-4bfd-83ba-b8347f525bb6")
-	)
-	(junction
 		(at 129.54 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1384,6 +1271,12 @@
 		(color 0 0 0 0)
 		(uuid "8ffd4a32-78a1-4f3d-a06c-2f58200c9f68")
 	)
+	(junction
+		(at 210.82 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d415d537-2458-4f8f-96ac-080d09505611")
+	)
 	(wire
 		(pts
 			(xy 274.32 124.46) (xy 274.32 120.65)
@@ -1393,16 +1286,6 @@
 			(type default)
 		)
 		(uuid "0d82e123-53a0-41c5-b213-6b77e5128175")
-	)
-	(wire
-		(pts
-			(xy 204.47 111.76) (xy 204.47 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11f58957-0297-4194-95f8-94d727e4e88c")
 	)
 	(wire
 		(pts
@@ -1453,6 +1336,16 @@
 			(type default)
 		)
 		(uuid "26fb0244-f5c9-4972-b37b-e41c8df5e1b0")
+	)
+	(wire
+		(pts
+			(xy 226.06 119.38) (xy 231.14 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d1e73eb-7fd2-4757-9c52-80df6826c845")
 	)
 	(wire
 		(pts
@@ -1556,17 +1449,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 104.14) (xy 209.55 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bd33e9e-b692-4b70-8e2a-2b54cac70817")
-	)
-	(wire
-		(pts
-			(xy 218.44 78.74) (xy 218.44 88.9)
+			(xy 210.82 78.74) (xy 210.82 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1586,16 +1469,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 111.76) (xy 209.55 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ffee5cf-82b1-40a8-abf9-61b62ef19c1c")
-	)
-	(wire
-		(pts
 			(xy 180.34 66.04) (xy 186.69 66.04)
 		)
 		(stroke
@@ -1606,23 +1479,13 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 121.92) (xy 204.47 121.92)
+			(xy 129.54 121.92) (xy 213.36 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "88f9f38f-19cf-4b1d-b6a3-4ca2f45e7fbb")
-	)
-	(wire
-		(pts
-			(xy 218.44 88.9) (xy 218.44 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ab7b09c-81d7-4859-8c6c-e01c8287cb13")
 	)
 	(wire
 		(pts
@@ -1666,6 +1529,26 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 116.84) (xy 210.82 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b03f3463-eddb-4049-a78b-9be39f2fcf5f")
+	)
+	(wire
+		(pts
+			(xy 213.36 116.84) (xy 210.82 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0e54f05-8a1a-4d04-b253-32eb43e902b2")
+	)
+	(wire
+		(pts
 			(xy 275.59 118.11) (xy 274.32 118.11)
 		)
 		(stroke
@@ -1686,17 +1569,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 104.14) (xy 209.55 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbf02411-d517-4721-871b-22d6309403cf")
-	)
-	(wire
-		(pts
-			(xy 200.66 88.9) (xy 218.44 88.9)
+			(xy 200.66 88.9) (xy 210.82 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1713,16 +1586,6 @@
 			(type default)
 		)
 		(uuid "c76c627c-f32e-4c10-afd0-7a9d27e2ccb1")
-	)
-	(wire
-		(pts
-			(xy 231.14 119.38) (xy 209.55 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0216b43-e0e8-4661-8b32-17f0240a2012")
 	)
 	(wire
 		(pts
@@ -1786,7 +1649,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 78.74) (xy 218.44 78.74)
+			(xy 200.66 78.74) (xy 210.82 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2113,70 +1976,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Custom_parts:BreadBoard_Space")
-		(at 207.01 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "909418e3-a384-4061-9976-1d97fa8149ed")
-		(property "Reference" "U9"
-			(at 212.09 109.6009 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 212.09 111.506 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Custom_parts:BreadBoard Space"
-			(at 207.01 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 207.01 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/f1e8215e-2100-40b3-b836-5691fd657e21"
-					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+15V")
 		(at 52.07 228.6 0)
 		(unit 1)
@@ -2441,6 +2240,76 @@
 			(project "ECET_318_Project"
 				(path "/f1e8215e-2100-40b3-b836-5691fd657e21"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom_parts:SPDT_Latching_Pushbutton")
+		(at 219.71 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c003e47d-76d0-4bae-afd4-9e8b3830738c")
+		(property "Reference" "U6"
+			(at 219.71 111.506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 219.71 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom_parts:800CSP1B6M2QE"
+			(at 219.71 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a6919f52-b97a-43cc-b643-40dd58b17e56")
+		)
+		(pin "1"
+			(uuid "98262c34-b4d1-4db9-bf11-b4329cb1c2a1")
+		)
+		(pin "2"
+			(uuid "c44371cf-2fc2-4813-ba54-863fd33006b3")
+		)
+		(instances
+			(project ""
+				(path "/f1e8215e-2100-40b3-b836-5691fd657e21"
+					(reference "U6")
 					(unit 1)
 				)
 			)
