@@ -647,6 +647,120 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint_Flag"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 3.429 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Flag"
+				(at 3.302 4.191 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point (alternative flag-style design)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Flag_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.889 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.889 2.794)
+					(end 5.842 0.889)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TestPoint_Flag_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -1427,6 +1541,12 @@
 		(uuid "2d27fcb5-c738-41f0-8040-59a65b10e154")
 	)
 	(junction
+		(at 143.51 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34d545ea-0bfa-4566-8f98-304840c45df4")
+	)
+	(junction
 		(at 30.48 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1451,6 +1571,12 @@
 		(uuid "4ffcd1b8-1dc8-4595-b533-2ca2f1c661bf")
 	)
 	(junction
+		(at 120.65 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5224f2b3-3e3c-4d34-ba85-1e6b82ca7be5")
+	)
+	(junction
 		(at 157.48 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1463,10 +1589,22 @@
 		(uuid "57a48a6b-01d8-4bf3-9c44-6518b5f3dd13")
 	)
 	(junction
+		(at 151.13 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e3e5627-bdad-4ce0-9243-11bd7241a4e1")
+	)
+	(junction
 		(at 187.96 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6fb8f74a-1e33-4cec-9109-7b5738405d78")
+	)
+	(junction
+		(at 143.51 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "775f638a-7c8d-4f52-a1fd-f2ee2585d9cf")
 	)
 	(junction
 		(at 161.29 134.62)
@@ -1523,6 +1661,12 @@
 		(uuid "bbe5b95f-460c-4ba9-b235-de94d5542add")
 	)
 	(junction
+		(at 99.06 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c95431e4-d0c8-4b0a-ac33-2e6988479fa5")
+	)
+	(junction
 		(at 119.38 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1533,6 +1677,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1f055a7-1514-4c02-ab38-02296ea7ab98")
+	)
+	(junction
+		(at 185.42 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd12cac8-2935-4b4b-bf7d-0e8c4e6d346e")
 	)
 	(junction
 		(at 185.42 146.05)
@@ -1565,6 +1715,16 @@
 			(type default)
 		)
 		(uuid "0268606a-10bf-4780-889f-767a83bce4b9")
+	)
+	(wire
+		(pts
+			(xy 146.05 104.14) (xy 143.51 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04864759-15cc-4176-857a-c78528bd5134")
 	)
 	(wire
 		(pts
@@ -1615,6 +1775,16 @@
 			(type default)
 		)
 		(uuid "11f8bfe8-53b9-4a4c-a745-41c28283b201")
+	)
+	(wire
+		(pts
+			(xy 99.06 102.87) (xy 99.06 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18425d4d-8972-4e82-bf2e-495cadaa1ca9")
 	)
 	(wire
 		(pts
@@ -1708,6 +1878,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 102.87) (xy 99.06 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d806aae-f202-412d-9daa-d197afa90a42")
+	)
+	(wire
+		(pts
 			(xy 99.06 48.26) (xy 104.14 48.26)
 		)
 		(stroke
@@ -1788,7 +1968,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 137.16) (xy 160.02 137.16)
+			(xy 134.62 137.16) (xy 151.13 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1918,6 +2098,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 129.54) (xy 185.42 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68f394aa-b4b1-43f9-bcea-9060a3910f53")
+	)
+	(wire
+		(pts
 			(xy 68.58 160.02) (xy 68.58 158.75)
 		)
 		(stroke
@@ -2038,6 +2228,26 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 104.14) (xy 143.51 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8743c72d-e215-4a58-aeda-accea79c98ef")
+	)
+	(wire
+		(pts
+			(xy 143.51 69.85) (xy 143.51 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89ddb3ab-f599-46ba-a21f-d7a15c643818")
+	)
+	(wire
+		(pts
 			(xy 143.51 115.57) (xy 148.59 115.57)
 		)
 		(stroke
@@ -2145,6 +2355,16 @@
 			(type default)
 		)
 		(uuid "9a2ad139-9713-48dd-ab19-4ae4c67d8604")
+	)
+	(wire
+		(pts
+			(xy 151.13 133.35) (xy 151.13 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bfb5dcb-c384-45ff-95bb-1fbcba2640c0")
 	)
 	(wire
 		(pts
@@ -2438,6 +2658,26 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 101.6) (xy 118.11 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2c9b357-b95f-4172-8c69-780bc55ff547")
+	)
+	(wire
+		(pts
+			(xy 151.13 137.16) (xy 160.02 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e604d218-56b1-41d7-aa71-b15af1d70cd5")
+	)
+	(wire
+		(pts
 			(xy 49.53 48.26) (xy 85.09 48.26)
 		)
 		(stroke
@@ -2445,6 +2685,16 @@
 			(type default)
 		)
 		(uuid "e7986273-8a04-4fe8-9626-097ab3626cba")
+	)
+	(wire
+		(pts
+			(xy 118.11 105.41) (xy 120.65 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7f6493b-f157-4bb0-9f39-f373f9fb5447")
 	)
 	(wire
 		(pts
@@ -2598,7 +2848,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 113.03) (xy 99.06 87.63)
+			(xy 99.06 113.03) (xy 99.06 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3486,6 +3736,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 143.51 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ea287ee-e8c3-4f51-a114-8bacf8775d50")
+		(property "Reference" "TP22"
+			(at 145.034 65.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Flag"
+			(at 151.13 69.7229 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 148.59 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative flag-style design)"
+			(at 143.51 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c8ba7ba-11b0-46fb-9e7f-015e7b8f2ab1")
+		)
+		(instances
+			(project "ECET_318_Project"
+				(path "/f1e8215e-2100-40b3-b836-5691fd657e21/a4fdb724-2a55-4a97-8bdc-8bc2d3b594ca"
+					(reference "TP22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 151.13 57.15 0)
 		(unit 1)
@@ -3752,6 +4069,73 @@
 			(project "ECET_318_Project"
 				(path "/f1e8215e-2100-40b3-b836-5691fd657e21/a4fdb724-2a55-4a97-8bdc-8bc2d3b594ca"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 146.05 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51c8a6d8-88c4-41fc-9acb-1faeac285e78")
+		(property "Reference" "TP21"
+			(at 147.574 100.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Flag"
+			(at 153.67 104.0129 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 151.13 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative flag-style design)"
+			(at 146.05 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2be97d2-4f95-48ed-a623-9e4fe954e8f2")
+		)
+		(instances
+			(project "ECET_318_Project"
+				(path "/f1e8215e-2100-40b3-b836-5691fd657e21/a4fdb724-2a55-4a97-8bdc-8bc2d3b594ca"
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -5084,6 +5468,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 151.13 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "acd2d3e4-be0d-4207-b977-990853d66c9d")
+		(property "Reference" "TP24"
+			(at 152.654 129.286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Flag"
+			(at 158.75 133.2229 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 156.21 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative flag-style design)"
+			(at 151.13 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8dd4ce7-2828-461f-bb42-ff11561040e7")
+		)
+		(instances
+			(project "ECET_318_Project"
+				(path "/f1e8215e-2100-40b3-b836-5691fd657e21/a4fdb724-2a55-4a97-8bdc-8bc2d3b594ca"
+					(reference "TP24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 185.42 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b30f758e-085e-4eb3-b183-b2e1761c0558")
+		(property "Reference" "TP19"
+			(at 186.944 125.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Flag"
+			(at 193.04 129.4129 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 190.5 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative flag-style design)"
+			(at 185.42 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ec56d00-d359-4716-8686-28215b0ebecb")
+		)
+		(instances
+			(project "ECET_318_Project"
+				(path "/f1e8215e-2100-40b3-b836-5691fd657e21/a4fdb724-2a55-4a97-8bdc-8bc2d3b594ca"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 173.99 134.62 90)
 		(unit 1)
@@ -5348,6 +5866,73 @@
 			(project "ECET_318_Project"
 				(path "/f1e8215e-2100-40b3-b836-5691fd657e21/a4fdb724-2a55-4a97-8bdc-8bc2d3b594ca"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 101.6 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2d26f05-dc9a-48cf-b834-705bf1cf86ac")
+		(property "Reference" "TP20"
+			(at 103.124 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Flag"
+			(at 109.22 102.7429 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 106.68 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative flag-style design)"
+			(at 101.6 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32e141c3-702f-49fa-85b6-aa0266ef36b8")
+		)
+		(instances
+			(project "ECET_318_Project"
+				(path "/f1e8215e-2100-40b3-b836-5691fd657e21/a4fdb724-2a55-4a97-8bdc-8bc2d3b594ca"
+					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -5932,6 +6517,73 @@
 				(path "/f1e8215e-2100-40b3-b836-5691fd657e21/a4fdb724-2a55-4a97-8bdc-8bc2d3b594ca"
 					(reference "U4")
 					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 118.11 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe98822a-a32b-42e5-b50c-cbf1f571e082")
+		(property "Reference" "TP23"
+			(at 119.634 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Flag"
+			(at 125.73 101.4729 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 123.19 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative flag-style design)"
+			(at 118.11 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f75b399-da7d-475d-bc9d-6b518f370cc9")
+		)
+		(instances
+			(project "ECET_318_Project"
+				(path "/f1e8215e-2100-40b3-b836-5691fd657e21/a4fdb724-2a55-4a97-8bdc-8bc2d3b594ca"
+					(reference "TP23")
+					(unit 1)
 				)
 			)
 		)
