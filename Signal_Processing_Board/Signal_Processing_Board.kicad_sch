@@ -1505,6 +1505,108 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+15V"
 			(power)
 			(pin_numbers hide)
@@ -1831,16 +1933,34 @@
 		(uuid "70f1a4bd-0745-48dc-96f5-2f4f0ef3cee1")
 	)
 	(junction
+		(at 227.33 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82570c87-c30a-4109-9d0e-c18b98871b8a")
+	)
+	(junction
 		(at 129.54 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ffd4a32-78a1-4f3d-a06c-2f58200c9f68")
 	)
 	(junction
+		(at 212.09 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2453acf-a8ee-44d6-8eb3-8680e9a41499")
+	)
+	(junction
 		(at 210.82 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d415d537-2458-4f8f-96ac-080d09505611")
+	)
+	(junction
+		(at 219.71 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f146b567-2ecf-4b27-8396-34f1885f5f3f")
 	)
 	(wire
 		(pts
@@ -1854,6 +1974,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 205.74) (xy 227.33 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15221ccd-de0f-4024-a360-d12dc05e8686")
+	)
+	(wire
+		(pts
 			(xy 52.07 228.6) (xy 52.07 232.41)
 		)
 		(stroke
@@ -1861,6 +1991,16 @@
 			(type default)
 		)
 		(uuid "1a6f9395-f9ad-4fe9-8096-11c6286ad14f")
+	)
+	(wire
+		(pts
+			(xy 227.33 208.28) (xy 219.71 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ac8a854-232c-42f3-bcb3-940758d2cb66")
 	)
 	(wire
 		(pts
@@ -1914,6 +2054,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 205.74) (xy 242.57 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31750b53-401d-46d5-853b-eb68af43e0d1")
+	)
+	(wire
+		(pts
 			(xy 104.14 121.92) (xy 129.54 121.92)
 		)
 		(stroke
@@ -1941,6 +2091,16 @@
 			(type default)
 		)
 		(uuid "42750e65-6cf3-40ac-a15b-5cbeefd0250a")
+	)
+	(wire
+		(pts
+			(xy 212.09 208.28) (xy 219.71 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "432914a1-a78e-459b-8dd4-8edb75231aed")
 	)
 	(wire
 		(pts
@@ -2024,6 +2184,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 205.74) (xy 212.09 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "746a65fd-5b6a-48fe-be67-437294f6b437")
+	)
+	(wire
+		(pts
 			(xy 228.6 101.6) (xy 228.6 119.38)
 		)
 		(stroke
@@ -2031,6 +2201,16 @@
 			(type default)
 		)
 		(uuid "75a57b0a-4c06-47cd-9d3a-ffdabd35806f")
+	)
+	(wire
+		(pts
+			(xy 196.85 205.74) (xy 196.85 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76040294-aef7-45aa-9afe-7d27fd64aec8")
 	)
 	(wire
 		(pts
@@ -2091,6 +2271,16 @@
 			(type default)
 		)
 		(uuid "a016f73f-7c41-4d54-a917-2ad426d6fc73")
+	)
+	(wire
+		(pts
+			(xy 242.57 208.28) (xy 227.33 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0c02562-313d-4f76-8147-797b245c2bc1")
 	)
 	(wire
 		(pts
@@ -2174,6 +2364,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 208.28) (xy 219.71 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1e94fc1-c0b7-4e72-803e-f35ae960097c")
+	)
+	(wire
+		(pts
 			(xy 59.69 120.65) (xy 67.31 120.65)
 		)
 		(stroke
@@ -2211,6 +2411,16 @@
 			(type default)
 		)
 		(uuid "ed582769-b830-4546-aa55-8d3bb8db0245")
+	)
+	(wire
+		(pts
+			(xy 196.85 208.28) (xy 212.09 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed59a616-d68d-45d8-b0d7-6066232b5159")
 	)
 	(wire
 		(pts
@@ -2479,6 +2689,206 @@
 			(project ""
 				(path "/f1e8215e-2100-40b3-b836-5691fd657e21"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 254 64.77 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25354e01-666b-4dbf-a5dd-59387550b85e")
+		(property "Reference" "#PWR049"
+			(at 254 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+15V"
+			(at 254 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 254 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "431762d9-db1f-4a8a-b623-a34c45671197")
+		)
+		(instances
+			(project "Signal_Processing_Board"
+				(path "/f1e8215e-2100-40b3-b836-5691fd657e21"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 260.35 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "256fdbfc-d257-421e-8738-c0047e52af50")
+		(property "Reference" "J13"
+			(at 261.62 59.0549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 261.62 61.5949 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 260.35 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 260.35 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a3d786f-2c98-4506-8b05-7d1524a48867")
+		)
+		(instances
+			(project "Signal_Processing_Board"
+				(path "/f1e8215e-2100-40b3-b836-5691fd657e21"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 196.85 203.2 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "25b226e0-c545-443d-8693-44507b2d6e10")
+		(property "Reference" "H1"
+			(at 195.326 196.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 190.5 198.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
+			(at 196.85 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 196.85 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd90b6bc-6789-4391-85c0-c7df0f0af616")
+		)
+		(instances
+			(project ""
+				(path "/f1e8215e-2100-40b3-b836-5691fd657e21"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -2759,6 +3169,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 254 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fa4af63-4ef3-4538-b223-2f64547f1e1e")
+		(property "Reference" "J12"
+			(at 255.27 59.0549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 255.27 61.5949 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 254 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 254 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c9712db-5c06-4d9c-b795-2f157687db88")
+		)
+		(instances
+			(project "Signal_Processing_Board"
+				(path "/f1e8215e-2100-40b3-b836-5691fd657e21"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Custom_parts:BreadBoard_Space")
 		(at 242.57 50.8 0)
 		(unit 1)
@@ -2785,7 +3263,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Custom_parts:BreadBoard Space"
+		(property "Footprint" "Custom_parts:BreadBoard Space XL"
 			(at 242.57 50.8 0)
 			(effects
 				(font
@@ -2883,6 +3361,140 @@
 			(project "ECET_318_Project"
 				(path "/f1e8215e-2100-40b3-b836-5691fd657e21"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 266.7 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6103dc83-0191-4256-a7f5-6e3599140de3")
+		(property "Reference" "J14"
+			(at 267.97 59.0549 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 267.97 61.5949 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 266.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 266.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da45c29c-4ff8-4a88-8963-0f7a8bf9127a")
+		)
+		(instances
+			(project "Signal_Processing_Board"
+				(path "/f1e8215e-2100-40b3-b836-5691fd657e21"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 212.09 203.2 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "73020d5b-5bc3-4b08-a783-ba61b527594a")
+		(property "Reference" "H2"
+			(at 210.566 196.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 205.74 198.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
+			(at 212.09 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 212.09 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f651dd6d-885f-4268-b6f2-a396995ab576")
+		)
+		(instances
+			(project "Signal_Processing_Board"
+				(path "/f1e8215e-2100-40b3-b836-5691fd657e21"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -3085,6 +3697,138 @@
 			(project ""
 				(path "/f1e8215e-2100-40b3-b836-5691fd657e21"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 219.71 210.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86cd5373-6eec-4cda-9fc9-4c828406cf14")
+		(property "Reference" "#PWR048"
+			(at 219.71 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 219.71 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21431b3d-b19e-408a-899d-fc9731900118")
+		)
+		(instances
+			(project ""
+				(path "/f1e8215e-2100-40b3-b836-5691fd657e21"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 227.33 203.2 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "8afee183-4a87-4519-8818-868b139c09c3")
+		(property "Reference" "H3"
+			(at 225.806 196.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 220.98 198.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
+			(at 227.33 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 227.33 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6ce05aa-2a2a-4294-a8ae-3b03b3297710")
+		)
+		(instances
+			(project "Signal_Processing_Board"
+				(path "/f1e8215e-2100-40b3-b836-5691fd657e21"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -3358,6 +4102,72 @@
 			(project ""
 				(path "/f1e8215e-2100-40b3-b836-5691fd657e21"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-15V")
+		(at 266.7 64.77 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1f00fbf-833f-4d5b-a8c9-c03e98076229")
+		(property "Reference" "#PWR051"
+			(at 266.7 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-15V"
+			(at 266.7 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-15V\""
+			(at 266.7 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e112e4de-7851-45c9-b21d-f6f5f272943e")
+		)
+		(instances
+			(project "Signal_Processing_Board"
+				(path "/f1e8215e-2100-40b3-b836-5691fd657e21"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -3925,7 +4735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Custom_parts:BreadBoard Space"
+		(property "Footprint" "Custom_parts:BreadBoard Space XL"
 			(at 233.68 50.8 0)
 			(effects
 				(font
@@ -4096,6 +4906,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 242.57 203.2 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec77c367-6ad2-426b-b759-b309579f7ea5")
+		(property "Reference" "H4"
+			(at 241.046 196.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 236.22 198.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad"
+			(at 242.57 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 242.57 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bac845df-8ab7-4bf1-a67f-530aae159896")
+		)
+		(instances
+			(project "Signal_Processing_Board"
+				(path "/f1e8215e-2100-40b3-b836-5691fd657e21"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:-15V")
 		(at 91.44 228.6 0)
 		(unit 1)
@@ -4156,6 +5032,72 @@
 			(project ""
 				(path "/f1e8215e-2100-40b3-b836-5691fd657e21"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 260.35 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f16fd0fa-de28-4c83-afad-042d488e4971")
+		(property "Reference" "#PWR050"
+			(at 260.35 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 260.35 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 260.35 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66c2d388-a7dd-472a-91cd-d4241d2b32e3")
+		)
+		(instances
+			(project "Signal_Processing_Board"
+				(path "/f1e8215e-2100-40b3-b836-5691fd657e21"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -4425,7 +5367,7 @@
 			(uuid "569c8926-6dfb-437f-8b81-7354c597f84b")
 		)
 		(instances
-			(project "ECET_318_Project"
+			(project "Signal_Processing_Board"
 				(path "/f1e8215e-2100-40b3-b836-5691fd657e21"
 					(page "2")
 				)
@@ -4485,7 +5427,7 @@
 			(uuid "94529277-8d31-4224-b5db-f9d4045f38d5")
 		)
 		(instances
-			(project "ECET_318_Project"
+			(project "Signal_Processing_Board"
 				(path "/f1e8215e-2100-40b3-b836-5691fd657e21"
 					(page "5")
 				)
@@ -4545,7 +5487,7 @@
 			(uuid "b52bb344-489f-40be-880c-d5f5bdc9786e")
 		)
 		(instances
-			(project "ECET_318_Project"
+			(project "Signal_Processing_Board"
 				(path "/f1e8215e-2100-40b3-b836-5691fd657e21"
 					(page "4")
 				)
@@ -4615,7 +5557,7 @@
 			(uuid "efde56a4-62f9-42c7-af2a-5673c5e8a0dd")
 		)
 		(instances
-			(project "ECET_318_Project"
+			(project "Signal_Processing_Board"
 				(path "/f1e8215e-2100-40b3-b836-5691fd657e21"
 					(page "4")
 				)
