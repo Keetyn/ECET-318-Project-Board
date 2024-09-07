@@ -1,4 +1,4 @@
-23748709192891237
+23750435499601905
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -54668,6 +54668,13 @@ BreadBoard Space
 
 0
 36
+6
+Custom_parts
+BreadBoard Space XL
+
+
+0
+200
 6
 Custom_parts
 Trim Pot
