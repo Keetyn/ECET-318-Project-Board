@@ -1,5 +1,205 @@
-(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "20d6200f-f95c-474c-9733-ba5c387dd201")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 151.13 144.78) (xy 151.13 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "832a10e3-6eac-42ce-990a-50cde4470c4b")
+	)
+	(sheet
+		(at 113.03 69.85)
+		(size 38.1 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "04870e4d-b4d7-4de3-aca8-0f056b8fcbc1")
+		(property "Sheetname" "Class_D_Discrete"
+			(at 113.03 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Class_D_Discrete.kicad_sch"
+			(at 113.03 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power_Amplifier_Board"
+				(path "/20d6200f-f95c-474c-9733-ba5c387dd201"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 130.81)
+		(size 38.1 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b4556730-0a29-4fdf-9ef8-817219584964")
+		(property "Sheetname" "Class_B_IC"
+			(at 113.03 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Class_B_IC.kicad_sch"
+			(at 113.03 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Class_B_IC_in" input
+			(at 113.03 140.97 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0fc6ee95-686e-493e-9086-4ba77fe21d2d")
+		)
+		(pin "Class_B_IC_Out_-" input
+			(at 151.13 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1d3e9844-40a5-4679-b2b1-0573522ce198")
+		)
+		(pin "Class_B_IC_Out_+" input
+			(at 151.13 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "38f52288-9c93-45fe-a6f0-1f4eca5ac83d")
+		)
+		(instances
+			(project "Power_Amplifier_Board"
+				(path "/20d6200f-f95c-474c-9733-ba5c387dd201"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 101.6)
+		(size 38.1 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d8e1bb68-a57d-4f1d-be87-34b9c10ddba7")
+		(property "Sheetname" "Class_B_Discrete"
+			(at 113.03 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Class_B_Discrete.kicad_sch"
+			(at 113.03 123.7746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power_Amplifier_Board"
+				(path "/20d6200f-f95c-474c-9733-ba5c387dd201"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 40.64)
+		(size 38.1 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ec0a85fd-f5f9-4874-a1fc-5ba7fc2e4a7c")
+		(property "Sheetname" "Class_D_IC"
+			(at 113.03 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Class_D_IC.kicad_sch"
+			(at 113.03 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power_Amplifier_Board"
+				(path "/20d6200f-f95c-474c-9733-ba5c387dd201"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
