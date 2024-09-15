@@ -2,9 +2,123 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "a201713a-12d7-45f4-ac5f-6d3ddf93fc24")
+	(uuid "56d23c65-bc73-4333-943f-426fc7978fe4")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint_Flag"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 3.429 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Flag"
+				(at 3.302 4.191 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point (alternative flag-style design)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Flag_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.889 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.889 2.794)
+					(end 5.842 0.889)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TestPoint_Flag_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Custom_parts:TL081"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1315,6 +1429,12 @@
 		(uuid "6b07dffb-a97a-4e8f-b345-f0fa4b040222")
 	)
 	(junction
+		(at 142.24 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7285d913-8280-46b2-9ebc-9765cc83c0bc")
+	)
+	(junction
 		(at 182.88 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1405,6 +1525,12 @@
 		(uuid "bde9f4d5-f6fa-4d97-a003-5e01f087afdb")
 	)
 	(junction
+		(at 120.65 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c36ec0ff-4e20-4f56-a3fa-7e95b5bc0f19")
+	)
+	(junction
 		(at 137.16 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1415,6 +1541,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d913d05e-52e0-4b08-a197-340c48797448")
+	)
+	(junction
+		(at 144.78 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbdfac57-145e-4639-b4d4-1d1d0d92c67f")
+	)
+	(junction
+		(at 119.38 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee790aa8-7102-421f-b4d6-e64689d0d843")
 	)
 	(wire
 		(pts
@@ -1495,6 +1633,16 @@
 			(type default)
 		)
 		(uuid "1666a44d-f789-495e-abe7-920ada107e0d")
+	)
+	(wire
+		(pts
+			(xy 182.88 60.96) (xy 182.88 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1be56693-0632-4d64-acc3-adb7d98d2d21")
 	)
 	(wire
 		(pts
@@ -1628,6 +1776,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 130.81) (xy 144.78 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36b2bd86-8bbd-48b7-9697-8c12a6495a63")
+	)
+	(wire
+		(pts
 			(xy 119.38 82.55) (xy 123.19 82.55)
 		)
 		(stroke
@@ -1655,6 +1813,16 @@
 			(type default)
 		)
 		(uuid "3ee83278-3e70-4337-b097-be08b5798c4c")
+	)
+	(wire
+		(pts
+			(xy 182.88 129.54) (xy 182.88 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41d58b1c-fd71-421c-a843-9eefab808917")
 	)
 	(wire
 		(pts
@@ -1705,6 +1873,16 @@
 			(type default)
 		)
 		(uuid "4798989b-0dd7-4ff4-8f4a-914a8c3ee86b")
+	)
+	(wire
+		(pts
+			(xy 144.78 62.23) (xy 148.59 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c4c6e02-0ba5-483c-bc8d-58c12e8dad67")
 	)
 	(wire
 		(pts
@@ -2208,7 +2386,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 62.23) (xy 148.59 62.23)
+			(xy 137.16 62.23) (xy 144.78 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2318,7 +2496,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 130.81) (xy 144.78 130.81)
+			(xy 137.16 130.81) (xy 142.24 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3398,6 +3576,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 119.38 64.77 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26657d1b-1da9-4ff0-80d8-6a3079ff1b91")
+		(property "Reference" "TP29"
+			(at 117.856 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Flag"
+			(at 111.76 64.8971 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 114.3 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative flag-style design)"
+			(at 119.38 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8b25a5b-49dc-4fb7-93ce-bf2b1b05274f")
+		)
+		(instances
+			(project "Signal_Processing_Board"
+				(path "/f1e8215e-2100-40b3-b836-5691fd657e21/8375d9e5-cd97-411c-8343-6e1e8856f822"
+					(reference "TP29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Custom_parts:TL081")
 		(at 123.19 62.23 0)
 		(unit 1)
@@ -3837,6 +4082,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 144.78 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4976240f-9529-4ab9-b234-dd598ab16f10")
+		(property "Reference" "TP30"
+			(at 143.256 66.294 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Flag"
+			(at 137.16 62.3571 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 139.7 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative flag-style design)"
+			(at 144.78 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0511c9c2-9897-4c91-862f-d0678ce8bf30")
+		)
+		(instances
+			(project "Signal_Processing_Board"
+				(path "/f1e8215e-2100-40b3-b836-5691fd657e21/8375d9e5-cd97-411c-8343-6e1e8856f822"
+					(reference "TP30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 41.91 137.16 0)
 		(unit 1)
@@ -4168,6 +4480,73 @@
 			(project "Signal_Processing_Board"
 				(path "/f1e8215e-2100-40b3-b836-5691fd657e21/8375d9e5-cd97-411c-8343-6e1e8856f822"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 182.88 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78623b9c-ce3f-44a8-9125-0d41fc8e857c")
+		(property "Reference" "TP26"
+			(at 184.404 125.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Flag"
+			(at 190.5 129.4129 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 187.96 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative flag-style design)"
+			(at 182.88 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c9446cc-b0a0-4214-b001-cf6703f838da")
+		)
+		(instances
+			(project "Signal_Processing_Board"
+				(path "/f1e8215e-2100-40b3-b836-5691fd657e21/8375d9e5-cd97-411c-8343-6e1e8856f822"
+					(reference "TP26")
 					(unit 1)
 				)
 			)
@@ -4596,6 +4975,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 142.24 130.81 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e46f42e-687b-4504-a950-a3699ab34c1e")
+		(property "Reference" "TP28"
+			(at 140.716 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Flag"
+			(at 134.62 130.9371 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 137.16 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative flag-style design)"
+			(at 142.24 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49576706-7bbf-46bc-8931-fcc29161ca4d")
+		)
+		(instances
+			(project "Signal_Processing_Board"
+				(path "/f1e8215e-2100-40b3-b836-5691fd657e21/8375d9e5-cd97-411c-8343-6e1e8856f822"
+					(reference "TP28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Custom_parts:TL081")
 		(at 123.19 130.81 0)
 		(unit 1)
@@ -4744,6 +5190,73 @@
 			(project "Signal_Processing_Board"
 				(path "/f1e8215e-2100-40b3-b836-5691fd657e21/8375d9e5-cd97-411c-8343-6e1e8856f822"
 					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 182.88 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "957e5eab-a980-416a-86ab-a452ab9797b9")
+		(property "Reference" "TP25"
+			(at 184.404 56.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Flag"
+			(at 190.5 60.8329 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 187.96 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative flag-style design)"
+			(at 182.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72272be6-85bd-410c-95f6-d122fc4a256b")
+		)
+		(instances
+			(project "Signal_Processing_Board"
+				(path "/f1e8215e-2100-40b3-b836-5691fd657e21/8375d9e5-cd97-411c-8343-6e1e8856f822"
+					(reference "TP25")
 					(unit 1)
 				)
 			)
@@ -5164,6 +5677,73 @@
 			(project "Signal_Processing_Board"
 				(path "/f1e8215e-2100-40b3-b836-5691fd657e21/8375d9e5-cd97-411c-8343-6e1e8856f822"
 					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Flag")
+		(at 120.65 151.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "afc2ba31-1775-4150-9ae0-2c22175ed30f")
+		(property "Reference" "TP27"
+			(at 119.126 155.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Flag"
+			(at 113.03 151.2571 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 115.57 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative flag-style design)"
+			(at 120.65 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b62e5a2-f543-4aa4-9fb1-712e7835670a")
+		)
+		(instances
+			(project "Signal_Processing_Board"
+				(path "/f1e8215e-2100-40b3-b836-5691fd657e21/8375d9e5-cd97-411c-8343-6e1e8856f822"
+					(reference "TP27")
 					(unit 1)
 				)
 			)

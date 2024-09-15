@@ -52,7 +52,11 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|181654999|142353537|425751e5-2ee1-4166-bb71-7fc64628c12c|e665cd65-3f6b-4388-9675-fc4428d47b9b",
+        "lib_footprint_issues|99030000|136078536|6a5cf47b-5042-43ab-8ae0-27a4009930f9|00000000-0000-0000-0000-000000000000",
+        "starved_thermal|180760000|164848536|cc43b5b2-d220-426a-a61d-85e98a90e353|4a7c0c32-99ce-4a8f-bff3-0de7d0e3b1ba|F.Cu"
+      ],
       "meta": {
         "version": 2
       },
@@ -466,7 +470,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
