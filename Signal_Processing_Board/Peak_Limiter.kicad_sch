@@ -1573,7 +1573,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 144.78) (xy 242.57 144.78)
+			(xy 132.08 173.99) (xy 130.81 173.99)
 		)
 		(stroke
 			(width 0)
@@ -1593,7 +1593,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 144.78) (xy 242.57 149.86)
+			(xy 130.81 173.99) (xy 130.81 179.07)
 		)
 		(stroke
 			(width 0)
@@ -1693,7 +1693,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 139.7) (xy 237.49 139.7)
+			(xy 132.08 168.91) (xy 125.73 168.91)
 		)
 		(stroke
 			(width 0)
@@ -1703,7 +1703,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 139.7) (xy 237.49 143.51)
+			(xy 125.73 168.91) (xy 125.73 172.72)
 		)
 		(stroke
 			(width 0)
@@ -1983,7 +1983,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 149.86) (xy 261.62 149.86)
+			(xy 130.81 179.07) (xy 149.86 179.07)
 		)
 		(stroke
 			(width 0)
@@ -2013,7 +2013,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 142.24) (xy 259.08 142.24)
+			(xy 149.86 171.45) (xy 147.32 171.45)
 		)
 		(stroke
 			(width 0)
@@ -2063,7 +2063,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 149.86) (xy 261.62 142.24)
+			(xy 149.86 179.07) (xy 149.86 171.45)
 		)
 		(stroke
 			(width 0)
@@ -2220,6 +2220,60 @@
 			(type default)
 		)
 		(uuid "fc95e407-a662-4ec5-9ab0-dc4b3fff3ad1")
+	)
+	(rectangle
+		(start 35.56 144.78)
+		(end 86.36 190.5)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 23554671-af04-43f2-b14c-cefeefa99a71)
+	)
+	(rectangle
+		(start 106.68 154.94)
+		(end 170.18 190.5)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7af05a5a-a26c-4b21-9285-014d77e410b0)
+	)
+	(text "Op-Amp Power"
+		(exclude_from_sim no)
+		(at 61.976 139.192 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "8013c229-2277-4fe5-96ce-4a1d51c31540")
+	)
+	(text "Unused Op-Amp\n"
+		(exclude_from_sim no)
+		(at 138.43 150.114 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "a6eb7a4a-ad78-435d-8343-b9c3e2cee4db")
+	)
+	(text "Peak Limiter"
+		(exclude_from_sim no)
+		(at 148.082 22.86 0)
+		(effects
+			(font
+				(size 6.35 6.35)
+			)
+		)
+		(uuid "ee85b3c8-1e7a-4541-bb89-4c68b8b1f0b2")
 	)
 	(hierarchical_label "Peak_Limit_in"
 		(shape input)
@@ -2861,7 +2915,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 237.49 143.51 0)
+		(at 125.73 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2870,7 +2924,7 @@
 		(fields_autoplaced yes)
 		(uuid "42847074-cc9c-4fe6-91a6-27d202604924")
 		(property "Reference" "#PWR060"
-			(at 237.49 149.86 0)
+			(at 125.73 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2879,7 +2933,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 237.49 148.59 0)
+			(at 125.73 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2887,7 +2941,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 143.51 0)
+			(at 125.73 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2896,7 +2950,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 143.51 0)
+			(at 125.73 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2905,7 +2959,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 237.49 143.51 0)
+			(at 125.73 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3634,7 +3688,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL084")
-		(at 251.46 142.24 0)
+		(at 139.7 171.45 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3643,7 +3697,7 @@
 		(fields_autoplaced yes)
 		(uuid "7da6f942-058f-48f0-a965-34ff36786bf2")
 		(property "Reference" "U5"
-			(at 251.46 132.08 0)
+			(at 139.7 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3651,7 +3705,7 @@
 			)
 		)
 		(property "Value" "TL084"
-			(at 251.46 134.62 0)
+			(at 139.7 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3659,7 +3713,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed_LongPads_Socket"
-			(at 250.19 139.7 0)
+			(at 138.43 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3668,7 +3722,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
-			(at 252.73 137.16 0)
+			(at 140.97 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3677,7 +3731,7 @@
 			)
 		)
 		(property "Description" "Quad JFET-Input Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
-			(at 251.46 142.24 0)
+			(at 139.7 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1367,6 +1367,16 @@
 		)
 		(uuid "fe2cd94e-849d-46f2-a014-c1cbe6854e69")
 	)
+	(text "Mic Amp"
+		(exclude_from_sim no)
+		(at 133.096 31.242 0)
+		(effects
+			(font
+				(size 6.35 6.35)
+			)
+		)
+		(uuid "5a9beb37-194d-4198-8f4c-fb2e0400dfac")
+	)
 	(hierarchical_label "Mic_Amp_Out"
 		(shape input)
 		(at 167.64 85.09 0)
