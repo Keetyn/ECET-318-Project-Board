@@ -1523,12 +1523,6 @@
 		(uuid "244a9728-ecfb-4070-9b22-7671a6f68450")
 	)
 	(junction
-		(at 30.48 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "27de604a-5a26-437b-b263-35e1aa7d63f1")
-	)
-	(junction
 		(at 171.45 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1545,12 +1539,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34d545ea-0bfa-4566-8f98-304840c45df4")
-	)
-	(junction
-		(at 30.48 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "482364bc-4f55-4ca1-b680-8ff5a6e1479b")
 	)
 	(junction
 		(at 120.65 113.03)
@@ -1649,6 +1637,12 @@
 		(uuid "a5760c5d-b78a-4f50-8e03-8c9e77c9639d")
 	)
 	(junction
+		(at 30.48 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6b781b0-90ba-416c-908c-f849be71bc40")
+	)
+	(junction
 		(at 147.32 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1683,6 +1677,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd12cac8-2935-4b4b-bf7d-0e8c4e6d346e")
+	)
+	(junction
+		(at 30.48 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb2f10b8-064f-434e-b0c0-d358fdc01adf")
 	)
 	(junction
 		(at 185.42 146.05)
@@ -1838,16 +1838,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 176.53) (xy 30.48 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26c005d4-5bb7-46f3-9876-aab2df5abc61")
-	)
-	(wire
-		(pts
 			(xy 99.06 57.15) (xy 99.06 48.26)
 		)
 		(stroke
@@ -1995,16 +1985,6 @@
 			(type default)
 		)
 		(uuid "415c4980-47b3-4e44-9932-e4dfa3c9bab0")
-	)
-	(wire
-		(pts
-			(xy 40.64 177.8) (xy 40.64 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "424dc508-622b-4131-adfe-6500709f573f")
 	)
 	(wire
 		(pts
@@ -2248,6 +2228,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 158.75) (xy 40.64 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b3ded01-0283-4b5f-9d8d-36675f9e4929")
+	)
+	(wire
+		(pts
 			(xy 143.51 115.57) (xy 148.59 115.57)
 		)
 		(stroke
@@ -2265,16 +2255,6 @@
 			(type default)
 		)
 		(uuid "8e9d2396-94e6-4f73-a5e2-43ab19d9388f")
-	)
-	(wire
-		(pts
-			(xy 40.64 160.02) (xy 40.64 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8edbecf4-ceda-460c-893a-347b5b3e0b05")
 	)
 	(wire
 		(pts
@@ -2365,16 +2345,6 @@
 			(type default)
 		)
 		(uuid "9bfb5dcb-c384-45ff-95bb-1fbcba2640c0")
-	)
-	(wire
-		(pts
-			(xy 30.48 158.75) (xy 30.48 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d4f060a-b7a5-4688-a06e-bbfd10d897fa")
 	)
 	(wire
 		(pts
@@ -2488,6 +2458,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 176.53) (xy 40.64 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2df2819-dc30-4527-ab96-b34594094bc6")
+	)
+	(wire
+		(pts
 			(xy 110.49 54.61) (xy 110.49 53.34)
 		)
 		(stroke
@@ -2505,6 +2485,16 @@
 			(type default)
 		)
 		(uuid "ba5983be-9eef-4ccc-bfa9-ace36a17ea1e")
+	)
+	(wire
+		(pts
+			(xy 30.48 158.75) (xy 30.48 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbf7db6a-1e6c-4c26-8a1e-97d4402d50fe")
 	)
 	(wire
 		(pts
@@ -2545,6 +2535,16 @@
 			(type default)
 		)
 		(uuid "cbbab243-5c14-4e9e-befb-5270fbee9f12")
+	)
+	(wire
+		(pts
+			(xy 30.48 175.26) (xy 30.48 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d252ae83-2eea-422c-b079-1bee7b1e3b5e")
 	)
 	(wire
 		(pts
@@ -4006,7 +4006,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 40.64 163.83 180)
+		(at 40.64 181.61 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4015,7 +4015,7 @@
 		(fields_autoplaced yes)
 		(uuid "49c763f9-1f8c-46d6-977c-c70f5987de08")
 		(property "Reference" "C20"
-			(at 44.45 162.5599 0)
+			(at 44.45 180.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4024,7 +4024,7 @@
 			)
 		)
 		(property "Value" "Cdec10"
-			(at 44.45 165.0999 0)
+			(at 44.45 182.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4033,7 +4033,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
-			(at 39.6748 160.02 0)
+			(at 39.6748 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4042,7 +4042,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 163.83 0)
+			(at 40.64 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4051,7 +4051,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 40.64 163.83 0)
+			(at 40.64 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4143,7 +4143,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.64 185.42 0)
+		(at 40.64 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4152,72 +4152,6 @@
 		(fields_autoplaced yes)
 		(uuid "55576d20-5889-4d1f-8234-77de2b8c796f")
 		(property "Reference" "#PWR033"
-			(at 40.64 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 40.64 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31da1777-ef35-43ab-84e2-c85029a4fb7d")
-		)
-		(instances
-			(project "ECET_318_Project"
-				(path "/f1e8215e-2100-40b3-b836-5691fd657e21/a4fdb724-2a55-4a97-8bdc-8bc2d3b594ca"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 40.64 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "57aa7509-d3cc-449f-bc62-4ca91e4470bd")
-		(property "Reference" "#PWR034"
 			(at 40.64 173.99 0)
 			(effects
 				(font
@@ -4254,6 +4188,72 @@
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 40.64 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31da1777-ef35-43ab-84e2-c85029a4fb7d")
+		)
+		(instances
+			(project "ECET_318_Project"
+				(path "/f1e8215e-2100-40b3-b836-5691fd657e21/a4fdb724-2a55-4a97-8bdc-8bc2d3b594ca"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 40.64 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57aa7509-d3cc-449f-bc62-4ca91e4470bd")
+		(property "Reference" "#PWR034"
+			(at 40.64 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.64 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 40.64 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5170,7 +5170,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 40.64 181.61 180)
+		(at 40.64 163.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5179,7 +5179,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d31cacf-a06d-488b-8cce-35a01c374750")
 		(property "Reference" "C19"
-			(at 44.45 180.3399 0)
+			(at 44.45 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5188,7 +5188,7 @@
 			)
 		)
 		(property "Value" "Cdec9"
-			(at 44.45 182.8799 0)
+			(at 44.45 165.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5197,7 +5197,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
-			(at 39.6748 177.8 0)
+			(at 39.6748 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5206,7 +5206,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 181.61 0)
+			(at 40.64 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5215,7 +5215,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 40.64 181.61 0)
+			(at 40.64 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6417,7 +6417,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL084")
-		(at 27.94 167.64 180)
+		(at 33.02 167.64 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6431,7 +6431,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "TL084"
@@ -6440,11 +6440,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed_LongPads_Socket"
-			(at 29.21 170.18 0)
+			(at 31.75 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6453,7 +6453,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl081.pdf"
-			(at 26.67 172.72 0)
+			(at 34.29 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6462,7 +6462,7 @@
 			)
 		)
 		(property "Description" "Quad JFET-Input Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
-			(at 27.94 167.64 0)
+			(at 33.02 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
